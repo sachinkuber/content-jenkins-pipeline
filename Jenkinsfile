@@ -15,8 +15,9 @@ pipeline {
            }
          }
 	 post {
-	     sucess {
-		archiveArtifacts artifacts: 'rectangle.jar', finderprint:true
+	     success {
+		archiveArtifacts artifacts: 'rectangle.jar', finderprint:
+true
 	
               }
 	 }
